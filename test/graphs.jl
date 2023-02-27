@@ -1,2 +1,2 @@
 using Test
-@test display(vcat(graph(node), [node]))
+@test connected_neighbors(graph, node) == [node, graph(node)]
